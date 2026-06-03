@@ -14,9 +14,9 @@ logger = logging.getLogger("deepsy-chat-server")
 
 BOT_TOKEN = os.getenv(
     "TELEGRAM_BOT_TOKEN",
-    "8790773247:AAF3Q9Pn0-_LcbVJ2OevoLHc1GunTN2nuuc",
+    "Your bot token",
 ).strip()
-CHAT_ID = os.getenv("TELEGRAM_CHAT_ID", "6576927659").strip()
+CHAT_ID = os.getenv("TELEGRAM_CHAT_ID", "your id in tg").strip()
 TELEGRAM_API_URL = f"https://api.telegram.org/bot{BOT_TOKEN}" if BOT_TOKEN else ""
 REQUEST_TIMEOUT = 15
 MAX_MESSAGE_LENGTH = 1500
